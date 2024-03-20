@@ -3,74 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ShoppingSQLiteDatabase.Pages.CartPage"
              Shell.NavBarIsVisible="False"
-             BackgroundImageSource="backgroundtwo.jpg">
+             BackgroundImageSource="chemlabpic.png">
     
-    <ContentPage.Content>
-        <StackLayout Margin="20" Spacing="10">
-            
-            <Label Text="My Cart"
-               FontSize="Title"
-               FontAttributes="Bold"
-                   TextColor="White"/>
-            <Label Text="Luke Padiachy"
-               FontSize="Large"
-               FontAttributes="Bold"
-                   TextColor="White"/>
-
-            
-            <SwipeView>
-                <SwipeView.RightItems>
-                    <SwipeItems>
-                        <SwipeItem 
-                               BackgroundColor="Green"
-                               IconImageSource="add.png"
-                               Command="{Binding AddItemCommand}"/>
-                    </SwipeItems>
-                </SwipeView.RightItems>
-                <SwipeView.LeftItems>
-                    <SwipeItems>
-                        <SwipeItem 
-                               BackgroundColor="Red"
-                               IconImageSource="trash.png"
-                               Command="{Binding RemoveItemCommand}"/>
-                    </SwipeItems>
-                </SwipeView.LeftItems>
-
-                <Frame BackgroundColor="Black"
-                   CornerRadius="10"
-                   Padding="10"
-                   HasShadow="True"
-                   HeightRequest="100">
-
-                    <StackLayout Orientation="Horizontal">
-                       
-                        <Frame BackgroundColor="White"
-                           CornerRadius="5"
-                           HeightRequest="70"
-                           WidthRequest="70"
-                           Padding="0">
-                       
-                            <Image Source="headset.jpg"
-                               Aspect="AspectFill"
-                               VerticalOptions="FillAndExpand" 
-                                HorizontalOptions="FillAndExpand"/>
-                                
-                        </Frame>
-
-                       
-                        <StackLayout VerticalOptions="Center">
-                            <Label Margin="10,0,10,0" 
-                                Text="Headset"
-                               FontSize="Medium"
-                               TextColor="White"/>
-                            <Label Margin="10,10,10,0" 
-                               Text="Quantity: 1"
-                               FontSize="Medium"
-                               TextColor="White"/>
-                        </StackLayout>
-                    </StackLayout>
-                </Frame>
-            </SwipeView>
-        </StackLayout>
-    </ContentPage.Content>
+    
+        
 </ContentPage>

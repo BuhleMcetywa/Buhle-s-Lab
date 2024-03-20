@@ -14,6 +14,8 @@ namespace ShoppingSQLiteDatabase.Models
 
         public string CustomerBio { get; set; }
 
+        public string CustomerPracticeNo { get; set; }
+
         [ForeignKey(typeof(ShoppingCart))]
         public int? CartItemId { get; set; }
 

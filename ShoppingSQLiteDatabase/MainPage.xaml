@@ -5,26 +5,26 @@
              xmlns:models="clr-namespace:ShoppingSQLiteDatabase.Models"
              x:Class="ShoppingSQLiteDatabase.MainPage" x:DataType="local:MainPage" 
              Shell.NavBarIsVisible="False"
-             BackgroundColor="#333333"
-             BackgroundImageSource="stereos.jpg"
+             BackgroundImageSource="chemlabpic.jpg"
            
              >
 
     <ContentPage.Content>
         <StackLayout Padding="10">
-            <Frame BorderColor="Black" CornerRadius="20" Padding="10" Margin="10" BackgroundColor="Black">
-                <Label Text="SIGN UP TO PURCHASE" FontSize="Title" FontAttributes="Bold" HorizontalOptions="Center" TextColor="White" />
+            <Frame  CornerRadius="20" Padding="10" Margin="10" BackgroundColor="#8F097B">
+                <Label Text=" SignUp Or Login" FontSize="Title" FontAttributes="Bold" HorizontalOptions="Center" TextColor="White" />
             </Frame>
-            <Frame BorderColor="Gray" CornerRadius="20" Padding="10" HeightRequest="400" WidthRequest="350">
+            <Frame   Padding="10" HeightRequest="400" WidthRequest="400" BackgroundColor="#CFB5EC" HorizontalOptions="Center">
                 <StackLayout>
-                    <Image Source="urbanupriselogo.png" HeightRequest="80" WidthRequest="80"/>
+                    
                     <Entry Text="{Binding CurrentCustomer.CustomerName}" Placeholder="Name"/>
                     <Entry Text="{Binding CurrentCustomer.CustomerSurname}"  Placeholder="Surname"/>
                     <Entry Text="{Binding CurrentCustomer.CustomerEmail}" Placeholder="Email"/>
+                    <Entry Text="{Binding CurrentCustomer.CustomerPracticeNo}" Placeholder="PracticeNo"/>
                     <Editor Text="{Binding CurrentCustomer.CustomerBio}" Placeholder="Bio"/>
                     
                     <StackLayout Orientation="Horizontal" Spacing="10" Margin="10,30,10,10" HorizontalOptions="Center">
-                        <Button Text="Save button"  BackgroundColor="#FFA500" TextColor="Black" WidthRequest="150" Clicked="Button_Clicked" />
+                        <Button Text="Save"  BackgroundColor="#8F097B" TextColor="Black" WidthRequest="150" Clicked="Button_Clicked" />
                         
                     </StackLayout>
 

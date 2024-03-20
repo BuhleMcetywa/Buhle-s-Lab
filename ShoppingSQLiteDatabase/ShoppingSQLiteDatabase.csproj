@@ -47,7 +47,6 @@
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
-		<MauiImage Update="Resources\Images\dotnet_bot.png" Resize="True" BaseSize="300,185" />
 
 		<!-- Custom Fonts -->
 		<MauiFont Include="Resources\Fonts\*" />
@@ -57,17 +56,17 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="Resources\Images\add.png" />
-	  <None Remove="Resources\Images\backgroundtwo.jpg" />
 	  <None Remove="Resources\Images\cart.png" />
-	  <None Remove="Resources\Images\flexirolla.jpg" />
-	  <None Remove="Resources\Images\headset.jpg" />
-	  <None Remove="Resources\Images\stereos.jpg" />
-	  <None Remove="Resources\Images\store.png" />
-	  <None Remove="Resources\Images\studio.jpg" />
-	  <None Remove="Resources\Images\trash.png" />
-	  <None Remove="Resources\Images\urbanupriselogo.png" />
-	  <None Remove="Resources\Images\user.png" />
+	  <None Remove="Resources\Images\chemlabpic.jpg" />
+	  <None Remove="Resources\Images\conicalflask.jpeg" />
+	  <None Remove="Resources\Images\funnel.jpeg" />
+	  <None Remove="Resources\Images\labicon.png" />
+	  <None Remove="Resources\Images\monoethyleneglycol.jpg" />
+	  <None Remove="Resources\Images\nitrogen.png" />
+	  <None Remove="Resources\Images\petridish.jpg" />
+	  <None Remove="Resources\Images\profileicon.png" />
+	  <None Remove="Resources\Images\sulfuricacid.jpeg" />
+	  <None Remove="Resources\Images\testtube.jpeg" />
 	</ItemGroup>
 
 	<ItemGroup>

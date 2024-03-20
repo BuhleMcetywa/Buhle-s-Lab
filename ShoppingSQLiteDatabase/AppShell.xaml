@@ -11,19 +11,19 @@
     Title="ShoppingSQLiteDatabase">
 
     <TabBar>
-        <Tab Title="Profile" Icon="user.png">
+        <Tab Title="Profile" Icon="profileicon.png">
             <ShellContent
                 Title="Home"
                 ContentTemplate="{DataTemplate local:MainPage}"
                 Route="MainPage" />
         </Tab>
-        <Tab Title="Items" Icon="store.png">
+        <Tab Title="TheLab" Icon="labicon.png">
             <ShellContent
             Title="Items"
             ContentTemplate="{DataTemplate pages:ProductPage}"
             Route="ProductPage" />
         </Tab>
-        <Tab Title="Cart" Icon="cart.png">
+        <Tab Title="MyCart" Icon="cart.png">
             <ShellContent
             Title="Home"
             ContentTemplate="{DataTemplate pages:CartPage}"
